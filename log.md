@@ -48,5 +48,17 @@
 **Link to Work:** https://github.com/shreya2592/Automating-the-Wikipedia-Crawl/blob/master/Modules/continue_crawl2.py
 
 
+###  Implementing the program - Part III
+
++ Download html of last article in article_chain
++ Find the first link in that html
++ Add the first link to article_chain
++ Delay for about two seconds
+
+
+**Link to Work:** https://github.com/shreya2592/Automating-the-Wikipedia-Crawl/blob/master/Modules/while_loop.py
+
+
+
 
 
