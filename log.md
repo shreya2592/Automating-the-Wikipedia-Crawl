@@ -35,13 +35,17 @@
 + If the list is more than 25 urls long, the function should return False
 + If the list has a cycle in it, the function should return False
 + otherwise the search should continue and the function should return True.
-**Link to Work: ** https://github.com/shreya2592/Automating-the-Wikipedia-Crawl/blob/master/Modules/continue_crawl.py
+
+
+**Link to Work:** https://github.com/shreya2592/Automating-the-Wikipedia-Crawl/blob/master/Modules/continue_crawl.py
 
 ###  Implementing the program - Part II
 
 + Change the max number 25 from hard coded value to a variable that can be changed in future. So replaced it with variable max_steps
 + Thus we add a new argument to the continue crwal function, i.e, max_steps and assign it some default value 
-**Link to Work: ** https://github.com/shreya2592/Automating-the-Wikipedia-Crawl/blob/master/Modules/continue_crawl2.py
+
+
+**Link to Work:** https://github.com/shreya2592/Automating-the-Wikipedia-Crawl/blob/master/Modules/continue_crawl2.py
 
 
 
