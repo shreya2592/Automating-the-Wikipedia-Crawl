@@ -20,12 +20,15 @@ otherwise the search should continue and the function should return True.
 
 def continue_crawl(search_history, target_url):
     if search_history[-1] == target_url:
+	print("We have found the target article!")
         return False
     elif len(search_history)>25:
+	print("The search has gone suspiciously long. Aborting Search.")
         return False
     elif search_history[-1] in search_history[:-1]:
+	print("We have arrived at an article we've already seen. Aborting search!!")
         return False
-    else: 
+    else:
         return True
 
 
