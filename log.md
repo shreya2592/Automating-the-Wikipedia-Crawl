@@ -60,5 +60,28 @@
 
 
 
+###  Implementing the program - Part IV
+
+ + get the HTML from "url", use the requests library
+ + feed the HTML into Beautiful Soup
+ + find the first link in the article
+ + return the first link as a string, or return None if there is no link
+ 
+
+**Link to Work:** https://github.com/shreya2592/Automating-the-Wikipedia-Crawl/blob/master/Modules/find_first_link.py
+
+
+
+
+###  Final Program- putting it all together. 
+
++ Combine all the modules.
++ Check for errors. 
++ Run the code 
+
+**Link to Work:** https://github.com/shreya2592/Automating-the-Wikipedia-Crawl/blob/master/Web_Crawler.py
+
+
+
 
 
